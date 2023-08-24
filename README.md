@@ -1,6 +1,6 @@
 # SPA Universe
  
-<h1 align="center"> Project Explorer </h1>
+<h1 align="center"> SPA Universe </h1>
 
 <p align="center">
 Este projeto foi realizado com alguns conceitos iniciais de spa, orientação ao objeto e node.js.
