@@ -1,0 +1,33 @@
+.h-page {
+  margin: 17.2rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.h-page a {
+  display: inline-flex;
+  padding: 1.2rem 3.2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #fff;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  cursor: pointer;
+  transition: all .2s ease-in;
+
+  color: #ffffff;
+}
+
+.h-page a:hover {
+  background-color: hsla(0, 0%, 100%, 0.058);
+  color: hsl(194, 100%, 48%);
+  scale: 1.02;
+}

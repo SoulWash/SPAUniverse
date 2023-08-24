@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+}
+
+html,
+body,
+button {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body img.bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+header {
+  padding: 4rem 7.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 2.4rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.555);
+  transition: all .2s ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%; /* 60px */
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.any-page {
+  max-width: 64.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6.2rem 10.2rem;
+  gap: 1.6rem;
+}
+
+#error{
+  color: red;
+
+  animation: shake 1s ease alternate backwards infinite;
+}
+
+
+@keyframes shake {
+  100% {
+    transform:rotate(-5deg) scale(1.2);
+  }
+}
+
+@media screen and (min-width: 1290px) {
+    header{
+      justify-content: space-between;
+    }
+
+    nav {
+      gap: 4rem;
+    }
+}
